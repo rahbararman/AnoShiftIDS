@@ -1,6 +1,7 @@
 # Data
 logs/
 stores/
+data/
 
 # VSCode
 .vscode/

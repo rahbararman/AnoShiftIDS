@@ -1,0 +1,16 @@
+# mkdocs.yml
+site_name: IDS Ano Shift
+nav:
+  - Home: index.md
+  - workflows:
+    - main: IDSAnoShift/main.md
+  - IDSAnoShift:
+    - data: IDSAnoShift/data.md
+    - predict: IDSAnoShift/predict.md
+    - train: IDSAnoShift/train.md
+    - utils: IDSAnoShift/utils.md
+theme: readthedocs
+plugins:
+  - mkdocstrings
+watch:
+  - .  # reload docs for any file changes

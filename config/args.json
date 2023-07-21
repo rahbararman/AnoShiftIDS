@@ -1,0 +1,6 @@
+{
+  "gamma": "scale",
+  "shrinking": false,
+  "verbose": false,
+  "max_iter": -1
+}

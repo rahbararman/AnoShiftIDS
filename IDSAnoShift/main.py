@@ -66,7 +66,7 @@ def train_model(args_fp, experiment_name, run_name, test_run=True):
             mlflow.log_artifacts(dp)
 
     # Save to config
-    if not test_run: # pragma: no cover, actual run
+    if not test_run:  # pragma: no cover, actual run
         open(Path(config.CONFIG_DIR, "run_id.txt"), "w").write(run_id)
         utils.save_dict(performance, Path(config.CONFIG_DIR, "performance.json"))
 
@@ -136,4 +136,4 @@ def predict_label(traffic_data: List[str], run_id=None):
 
 
 if __name__ == "__main__":
-    app() # pragma: no cover, CLI app
+    app()  # pragma: no cover, CLI app

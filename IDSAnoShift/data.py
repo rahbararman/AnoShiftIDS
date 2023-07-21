@@ -37,7 +37,7 @@ def rename_columns(df):
             new_names.append((col_name, "num_" + col_name))
         elif col_name in categorical_cols:
             new_names.append((col_name, "cat_" + col_name))
-        else: # pragma: no cover, other data
+        else:  # pragma: no cover, other data
             new_names.append((col_name, col_name))
     df.rename(columns=dict(new_names), inplace=True)
     return df

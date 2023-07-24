@@ -22,6 +22,10 @@ mlflow.set_tracking_uri("file://" + str(MODEL_REGISTRY.absolute()))
 LOGS_DIR = Path(BASE_DIR, "logs")
 LOGS_DIR.mkdir(parents=True, exist_ok=True)
 
+# BLOB
+BLOB_STORE = Path(STORES_DIR, "blob")
+BLOB_STORE.mkdir(parents=True, exist_ok=True)
+
 logging_config = {
     "version": 1,
     "disable_existing_loggers": False,

@@ -35,3 +35,7 @@ help:
 	@echo "venv    : creates a virtual environment."
 	@echo "style   : executes style formatting."
 	@echo "clean   : cleans all unnecessary files."
+.PHONY: dvc
+dvc:
+	dvc add data/data.csv
+	dvc push

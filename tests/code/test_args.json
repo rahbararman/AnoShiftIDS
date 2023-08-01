@@ -1,6 +1,6 @@
 {
-  "gamma": "scale",
-  "shrinking": false,
+  "gamma": "auto",
+  "shrinking": true,
   "verbose": true,
   "max_iter": -1
 }

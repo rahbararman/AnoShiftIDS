@@ -89,11 +89,14 @@ celerybeat.pid
 # Environment
 .env
 .venv
+.mlopsvenv
 env/
 venv/
+mlopsvenv/
 ENV/
 env.bak/
 venv.bak/
+mlopsvenv.bak/
 
 # mkdocs
 site/

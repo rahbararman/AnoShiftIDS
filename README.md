@@ -1,4 +1,4 @@
-# AnoShift Based IDS
+# AnoShift IDS
 ### Virtual Environment
 ```bash
 python3 -m venv venv
